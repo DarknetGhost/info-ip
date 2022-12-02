@@ -7,4 +7,4 @@ git clone github.com/TheDanius123/info-ip
 
 cd info-ip
 
-sudo bash info-ip
+sudo bash ip.sh
