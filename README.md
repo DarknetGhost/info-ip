@@ -9,4 +9,4 @@ cd info-ip
 
 bash ip.sh
 
-Funcion tanto para # Linux como para #Termux
+Funcion tanto para Linux como para Termux
