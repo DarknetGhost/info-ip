@@ -13,12 +13,30 @@ echo "
  ░           ░             ░ ░      ░           
                                                 
 "
-                                                
+echo "         Bienvenido               "
 
+echo ""
 
-echo "[+]Podras ver informacion basica sobre una direccion IP"
-read -p "Ingresa la direccion IP: "
+echo "1.- Sacar informacion de una Direccion IP"
 
-sleep 3
+echo "2.- Ver tu direccion IP publica"
 
-curl "ipinfo.io/$ip?token=6013e923bd8fe3"
+read -p "Ingresa una opcion: " opcion
+echo ""
+
+if [[ $opcion -gt 1 ]]
+ then
+ curl ifconfig.me
+ echo ""
+ echo ""
+
+ else [[ $opcion -gt 2 ]]
+
+ echo "[+]Podras ver informacion basica sobre una direccion IP"
+ read -p "Ingresa la direccion IP: " ip
+
+ sleep 2
+
+ curl "ipinfo.io/$ip?token=6013e923bd8fe3"
+
+fi
