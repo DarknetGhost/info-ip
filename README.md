@@ -7,7 +7,7 @@ git clone github.com/TheDanius123/info-ip
 
 cd info-ip
 
-bash ip.sh
+bash Infoip.sh
 
 Funcion tanto para Linux como para Termux
 
