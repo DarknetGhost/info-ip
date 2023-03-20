@@ -11,8 +11,3 @@ bash ip.sh
 
 Funcion tanto para Linux como para Termux
 
-# Actualizaciones
-
-Ahora puedes ver tu direccion IP publica dentro de la misma herramienta
-
-Pronto vendras mejoras a la hora de manejar la herramienta
